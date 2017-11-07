@@ -20,7 +20,7 @@ public class login {
 		  Assert.assertEquals("Guru99 Bank Home Page",driver.getTitle(),"Mismatch");
 		  Reporter.log("title matched");;
 		  System.out.println(driver.getTitle());
-		  Reporter.log("Title printed");
+		  Reporter.log("Title printed" + driver.getTitle());
 		  
 		  
 	  }
